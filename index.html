@@ -9,5 +9,11 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <script>
+      // https://ui.docs.amplify.aws/getting-started/installation?platform=vue#vite
+      window.global = window;
+      var exports = {};
+    </script>
   </body>
 </html>
